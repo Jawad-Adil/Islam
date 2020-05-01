@@ -1,1 +1,1 @@
-# Islamic-talk
+# Islam
