@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat-black", sans-serif;
+}
+
+#title {
+  background-color: #10316b;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+
+.head-title {
+    padding: 0 0 4.5rem;
+    text-align: center;
+}
+
+.text-d {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+}
+
+.text-d1 {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.cw {
+    padding: 0 10% 7%;
+}
+
+/* download buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+  width: 100%;
+}
+
+/* feature section */
+
+#features {
+  background-color: #3cbdb4;
+  color: #10316b;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.spacing {
+    margin-top: 3.3rem;
+    padding-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #10316b;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+
+/* my team */
+#team {
+  padding: 4% 15%;
+  text-align: center;
+}
+
+.p-s {
+ padding: 5%;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+  font-size: 16px;
+}
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #10316b;
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+}
+.section-title h4:after {
+  position: absolute;
+  background-color: #10316b;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%;
+}
+
+.single-team img {
+  width: 100%;
+}
+
+
+
+/* cta section */
+
+#cta {
+  background-color: #10316b;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+  background-color: #10316b;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon-p {
+  margin: 10px 10px;
+}
+
+.icon-p:hover {
+  color: #a7d129;
+}
+
+/* media query  */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  h2 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
